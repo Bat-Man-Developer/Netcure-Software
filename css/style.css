@@ -1,0 +1,1177 @@
+/*-----------All Size Screen-----------*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	margin:4px, 4px;
+	padding:4px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.adminbtn input{
+	max-width: 50%;
+}
+
+#admineditbtn{
+	max-width: 50%;
+}
+
+#refreshbtn{
+	display: block;
+	margin: auto;
+	max-width: 20%;
+}
+
+.btn{
+	display: inline-block;
+	background: rgb(18, 58, 190);
+	color: #fff;
+	padding: 2px 8px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	width: fit-content;
+	height: fit-content;
+	text-decoration: none;
+}
+.btn:hover{
+	background: #083475;
+}
+
+/*-------Admin-Header-page-------*/
+.sidenav {
+	margin-top: 5px;
+	margin-left: -200px;
+	height: 100vh;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-image: url('../images/background1.gif');
+	transition: 0.5s;
+	padding-top: 60px;
+	overflow-y: auto;
+}
+
+.sidenav .logo{
+	width: 150px; 
+	height: 140px;
+	border: solid #fff;
+	margin-bottom: 30px;
+	box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.sidenav img{
+	width: 146px; 
+	height: 133px; 
+	align-self: left;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.sidenav img:hover{
+	width: 147px; 
+	height: 135px;
+	margin-left: -38px;
+	margin-top: -10px;
+	box-shadow: -3px 5px -5px rgb(0, 0, 0);
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: verdana;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.topnavbar{
+	width: 100vw;
+	height: 150px;
+	position: fixed;
+	background-image: url('../images/background1.gif');
+}
+
+.topnavbar ul{
+	background-image: url('../images/background1.gif');
+	color: white;
+	margin-top: 5px;
+}
+
+.topnavbar a{
+	padding: 10px;
+}
+
+#adminmenuicon{
+	display: flex;
+	cursor: pointer;
+	box-shadow: 0px 5px 10px rgb(0, 0, 0);
+	border: solid #fff;
+	border-radius: 50px;
+	background-color: rgb(18, 38, 166);
+	font-family: verdana;
+	color: silver;
+	text-decoration: none;
+	transition: 1s;
+	width: fit-content;
+	height: fit-content;
+	font-size: 50%;
+	position: absolute;
+	top: 0%;
+	margin-top: 2px;
+	margin-left: 80%;
+}
+
+.signout{
+	cursor: pointer;
+	box-shadow: 0px 5px 10px rgb(0, 0, 0);
+	border: solid #fff;
+	border-radius: 50px;	
+	font-family: verdana;
+	color: silver;
+	text-decoration: none;
+	transition: 1s;
+	background-color: rgb(18, 38, 166);
+	width: fit-content;
+	height: fit-content;
+	font-size: 50%;
+	margin-left: 5%;
+}
+
+.notificationquantity{
+	background-color: red;
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 50%;
+	margin: -5px;
+}
+
+.notificationpic{
+	cursor: pointer;
+	object-position: 0px 0px;
+	box-shadow: 0px 5px 10px rgb(0, 0, 0);
+	border: solid #fff;
+	border-radius: 50px;
+	background-color: rgb(18, 38, 166);
+	transition: 1s;
+	width: 35px;
+	height: 35px;
+	margin-left: 5%;
+}
+
+.notificationpic:hover{
+	background-color: rgb(68, 91, 165);
+}
+
+.signout:hover{
+	color:rgb(68, 91, 165);
+}
+
+#adminmenuicon:hover{
+	color:rgb(68, 91, 165);
+}
+
+/*---------Admin-Footer-page------------*/
+.footer{
+	background: silver;
+	color: #8a8a8a;
+	width: 100vw;
+	height: 100vh;
+}
+
+.footer p{
+	color: #8a8a8a;
+}
+
+.copyright{
+	font-size: 14px;
+	text-align: center;
+}
+
+/*---------- Layouts ---------*/
+.adminbtn{
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*----Index-Page --------*/
+#backgroundImg2{
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+}
+
+/*----Dashboard-Page --------*/
+.dashboard{
+	width: 100vw;
+	height: 100vh;
+	margin-top: 150px;
+}
+.dashboardcontainer{
+	border: solid silver;
+	border-width: 10px;
+	border-style: double;
+	width: 100vw;
+	height: fit-content;
+	margin-left: 0px;
+}
+
+.dashboardcontainer h3{
+	font-family: sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+
+.dashboardadmininfo{
+	border: dotted #ccc;
+	border-width: 5px;
+	border-style: double;
+	width: 100%;
+	height: fit-content;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 40px;
+	font-size: 12px;
+	font-weight: 10px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-left: 2px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 1px;
+	font-size: 12px;
+	font-weight: 18;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-family: verdana;
+	font-style: italic;
+	font-size: large;
+	color: #555;
+	text-align: center;
+}
+
+.admindashboardcontainer a{
+	border-style: groove;
+	border-color: grey;
+}
+
+.admindashboardcontainer a:hover{
+	background-color: grey;
+	border-style: groove;
+}
+
+/*----------Admin Security Surveilence Page--------*/
+.securitysurveilencecontainer{
+max-width: 100%;
+margin: 20px auto;
+padding: 0 20px;
+text-align: center;
+}
+
+.chartcontainer{
+margin-bottom: 20px;
+}
+
+/*----------Admin IDS Page--------*/
+.adminidstable{
+	font-family: 'Courier New'; 
+	font-size: small;
+	font-style: normal;
+	width: 100%;
+}
+
+.adminidstitle{
+	text-align: center;
+}
+
+.adminIdsBtnNav{
+	text-align: center;
+}
+
+.adminlocalnetworktraffictable{
+	font-family: 'Courier New'; 
+	font-size: 10px;
+	font-style: normal;
+	width: 100%;
+	text-align: center;
+}
+
+/*-------media query for less than 1300 screen size----*/
+@media only screen and (max-width: 1300px){
+/*-------Admin-Header-page-------*/
+.sidenav {
+	margin-top: 4px;
+	padding-top: 30px;
+}
+
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+	margin-left: -34px;
+	margin-top: -10px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: x-large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 24px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 25px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: x-large;
+}
+}
+
+/*-------media query for less than 1200 screen size----*/
+@media only screen and (max-width: 1200px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 17px;
+	margin-top: 7px;
+	margin-left: 2px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 17px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: large;
+}
+}
+
+/*-------media query for less than 1100 screen size----*/
+@media only screen and (max-width: 1100px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 17px;
+	margin-top: 7px;
+	margin-left: 2px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 17px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: large;
+}
+}
+
+/*-------media query for less than 1000 screen size----*/
+@media only screen and (max-width: 1000px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 17px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 17px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: large;
+}
+}
+
+/*-------media query for less than 900 screen size----*/
+@media only screen and (max-width: 900px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+
+/*----------Admin Local Network Traffic Page--------*/
+.adminlocalnetworktraffictable{ 
+	font-size: 6px;
+}
+}
+
+/*-------media query for less than 800 screen size----*/
+@media only screen and (max-width: 800px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 750 screen size----*/
+@media only screen and (max-width: 750px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 700 screen size----*/
+@media only screen and (max-width: 700px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 650 screen size----*/
+@media only screen and (max-width: 650px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px; 
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 600 screen size----*/
+@media only screen and (max-width: 600px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 550 screen size----*/
+@media only screen and (max-width: 550px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+	font-weight: 10px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 500 screen size----*/
+@media only screen and (max-width: 500px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+
+/*----------Admin Local Network Traffic Page--------*/
+.adminlocalnetworktraffictable{ 
+	font-size: 4px;
+}
+}
+
+/*-------media query for less than 450 screen size----*/
+@media only screen and (max-width: 450px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 400 screen size----*/
+@media only screen and (max-width: 400px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 87px; 
+	height: 82px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 83px; 
+	height: 79.5px;
+}
+
+.sidenav img:hover{
+	width: 83.5px; 
+	height: 74.5px;
+}
+
+.sidenav a {
+	font-size: 15px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: large;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 350 screen size----*/
+@media only screen and (max-width: 350px){
+/*-------Admin-Header-page-------*/
+.sidenav{
+	width: 100px;
+}
+.sidenav .logo{
+	width: 37px; 
+	height: 35px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav img:hover{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav a {
+	font-size: 5px;
+}
+
+/*---------Admin-Footer-page------------*/
+.copyright{
+	font-size: 10px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: small;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 10px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 300 screen size----*/
+@media only screen and (max-width: 300px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 37px; 
+	height: 35px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav img:hover{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav a {
+	font-size: 5px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: small;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 5px;
+	font-size: 10px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}
+
+/*-------media query for less than 280 screen size----*/
+@media only screen and (max-width: 280px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 37px; 
+	height: 35px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav img:hover{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav a {
+	font-size: 5px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: small;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 10px;
+	font-size: 12px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 1px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: large;
+}
+}
+
+/*-------media query for less than 260 screen size----*/
+@media only screen and (max-width: 260px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 37px; 
+	height: 35px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav img:hover{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav a {
+	font-size: 5px;
+}
+
+/*----Dashboard-Page --------*/
+.dashboardcontainer h3{
+	font-size: small;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 10px;
+	font-size: 12px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 1px;
+	font-size: 12px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: large;
+}
+}
+
+/*-------media query for less than 240 screen size----*/
+@media only screen and (max-width: 240px){
+/*-------Admin-Header-page-------*/
+.sidenav .logo{
+	width: 37px; 
+	height: 35px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+
+.sidenav img{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav img:hover{
+	width: 32px; 
+	height: 30px;
+}
+
+.sidenav a {
+	font-size: 5px;
+}
+
+.dashboardcontainer h3{
+	font-size: xx-small;
+}
+
+.dashboardadmininfo p{
+	word-spacing: 10px;
+	font-size: 8px;
+}
+
+.dashboardadmininfo span{
+	word-spacing: 1px;
+	font-size: 8px;
+}
+
+.admindashboardcontainer #dashboardwelcome{
+	font-size: small;
+}
+}

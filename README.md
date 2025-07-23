@@ -1,2 +1,2 @@
-# Netcure-Software
-Cybersecurity Network Intrusion Detection and Prevention
+# net-cure-website
+AI Cybersecurity Network Security Solution
